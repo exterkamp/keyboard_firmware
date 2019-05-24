@@ -1,0 +1,228 @@
+EESchema Schematic File Version 4
+LIBS:mini_keeb-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy2.0 U1
+U 1 1 5CC69923
+P 5700 2750
+F 0 "U1" H 5700 3787 60  0000 C CNN
+F 1 "Teensy2.0" H 5700 3681 60  0000 C CNN
+F 2 "keebs:Teensy_20" H 5800 1700 60  0001 C CNN
+F 3 "" H 5800 1700 60  0000 C CNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5CC6C0FB
+P 7600 2250
+F 0 "K1" H 7600 2483 60  0000 C CNN
+F 1 "KEYSW" H 7600 2150 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7600 2250 60  0001 C CNN
+F 3 "" H 7600 2250 60  0000 C CNN
+	1    7600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5CC6DB2D
+P 7300 2450
+F 0 "D1" V 7300 2371 50  0000 R CNN
+F 1 "D" V 7255 2371 50  0001 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7300 2450 50  0001 C CNN
+F 3 "~" H 7300 2450 50  0001 C CNN
+	1    7300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5CC70660
+P 7600 2800
+F 0 "K2" H 7600 3033 60  0000 C CNN
+F 1 "KEYSW" H 7600 2700 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 7600 2800 60  0001 C CNN
+F 3 "" H 7600 2800 60  0000 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5CC70666
+P 7300 3000
+F 0 "D2" V 7300 2921 50  0000 R CNN
+F 1 "D" V 7255 2921 50  0001 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7300 3000 50  0001 C CNN
+F 3 "~" H 7300 3000 50  0001 C CNN
+	1    7300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5CC71A20
+P 8400 2250
+F 0 "K3" H 8400 2483 60  0000 C CNN
+F 1 "KEYSW" H 8400 2150 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8400 2250 60  0001 C CNN
+F 3 "" H 8400 2250 60  0000 C CNN
+	1    8400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5CC71A26
+P 8100 2450
+F 0 "D3" V 8100 2371 50  0000 R CNN
+F 1 "D" V 8055 2371 50  0001 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8100 2450 50  0001 C CNN
+F 3 "~" H 8100 2450 50  0001 C CNN
+	1    8100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5CC71CD2
+P 8400 2800
+F 0 "K4" H 8400 3033 60  0000 C CNN
+F 1 "KEYSW" H 8400 2700 60  0001 C CNN
+F 2 "keebs:Mx_Alps_100" H 8400 2800 60  0001 C CNN
+F 3 "" H 8400 2800 60  0000 C CNN
+	1    8400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5CC71CD8
+P 8100 3000
+F 0 "D4" V 8100 2921 50  0000 R CNN
+F 1 "D" V 8055 2921 50  0001 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8100 3000 50  0001 C CNN
+F 3 "~" H 8100 3000 50  0001 C CNN
+	1    8100 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 2600 8100 2650
+Wire Wire Line
+	8100 2650 7300 2650
+Wire Wire Line
+	7300 2650 7300 2600
+Wire Wire Line
+	7300 2650 7150 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7300 2250 7300 2300
+Wire Wire Line
+	7300 2800 7300 2850
+Wire Wire Line
+	8100 3150 8100 3200
+Wire Wire Line
+	8100 3200 7300 3200
+Wire Wire Line
+	7300 3150 7300 3200
+Connection ~ 7300 3200
+Wire Wire Line
+	7300 3200 7150 3200
+Wire Wire Line
+	8100 2250 8100 2300
+Wire Wire Line
+	8100 2800 8100 2850
+Wire Wire Line
+	8750 2100 8750 2250
+Wire Wire Line
+	8750 2800 8700 2800
+Wire Wire Line
+	8750 2250 8700 2250
+Connection ~ 8750 2250
+Wire Wire Line
+	8750 2250 8750 2800
+Wire Wire Line
+	7950 2100 7950 2250
+Wire Wire Line
+	7950 2800 7900 2800
+Wire Wire Line
+	7950 2250 7900 2250
+Connection ~ 7950 2250
+Wire Wire Line
+	7950 2250 7950 2800
+Text Label 7950 2100 0    50   ~ 0
+col0
+Text Label 8750 2100 0    50   ~ 0
+col1
+Text Label 7150 2650 2    50   ~ 0
+row0
+Text Label 7150 3200 2    50   ~ 0
+row1
+Text Label 5000 2100 2    50   ~ 0
+col0
+Text Label 5000 2200 2    50   ~ 0
+col1
+Text Label 5000 2300 2    50   ~ 0
+row0
+Text Label 5000 2400 2    50   ~ 0
+row1
+$Comp
+L power:GND #PWR0101
+U 1 1 5CC7867A
+P 4700 2000
+F 0 "#PWR0101" H 4700 1750 50  0001 C CNN
+F 1 "GND" V 4705 1872 50  0000 R CNN
+F 2 "" H 4700 2000 50  0001 C CNN
+F 3 "" H 4700 2000 50  0001 C CNN
+	1    4700 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2000 4700 2000
+Wire Wire Line
+	5000 3400 4700 3400
+$Comp
+L power:VCC #PWR0103
+U 1 1 5CC7C81D
+P 4700 3300
+F 0 "#PWR0103" H 4700 3150 50  0001 C CNN
+F 1 "VCC" V 4718 3427 50  0000 L CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5CC7D517
+P 6700 2300
+F 0 "#PWR0104" H 6700 2150 50  0001 C CNN
+F 1 "VCC" V 6717 2428 50  0000 L CNN
+F 2 "" H 6700 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 2300 6400 2300
+Wire Wire Line
+	4700 3300 5000 3300
+$Comp
+L power:GND #PWR0102
+U 1 1 5CC79D31
+P 4700 3400
+F 0 "#PWR0102" H 4700 3150 50  0001 C CNN
+F 1 "GND" V 4705 3272 50  0000 R CNN
+F 2 "" H 4700 3400 50  0001 C CNN
+F 3 "" H 4700 3400 50  0001 C CNN
+	1    4700 3400
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
