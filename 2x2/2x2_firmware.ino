@@ -5,7 +5,6 @@
  * to 1-4 and activates the onboard teensy 2 LED on key down.
  * 
  * Inspired by Stefan Jakobsson, 2019.
- * https://forum.pjrc.com/threads/55395-Keyboard-simple-firmware
  */
 
 #include <Bounce.h>
